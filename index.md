@@ -198,7 +198,8 @@ and our administrator may contact you if we need any extra information.</h4>
 <p><a href="{{ site.dc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.dc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 {% elsif page.carpentry == "lc" %}
-<p>Ask your instructor about pre- and post-workshop Survey details.</p>
+<p><a href="https://www.surveymonkey.com/r/lcpreworkshopsurvey?workshop_id=[workshop_id_value]">Pre-workshop Survey</a></p>
+<p><a href="https://www.surveymonkey.com/r/lcpostworkshopsurvey?workshop_id=[workshop_id_value]">Post-workshop Survey</a></p>
 {% endif %}
 
 <hr/>
